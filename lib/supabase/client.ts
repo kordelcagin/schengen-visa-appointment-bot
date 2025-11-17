@@ -118,7 +118,7 @@ export async function upsertUserPreferences(userId: string, data: Partial<UserPr
 
   const { data: prefs, error } = await supabase
     .from('user_preferences')
-    .upsert({ ...data, user_id: userId })
+    .upsert({ ...data, user_id: userId }, { onConflict: 'user_id' })
     .select()
     .single();
 

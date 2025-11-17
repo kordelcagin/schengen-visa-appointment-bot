@@ -8,7 +8,8 @@ import { Badge } from '@/components/ui/badge';
 import { COUNTRIES, formatDateTR } from '@/lib/constants/countries';
 import Link from 'next/link';
 
-const MOCK_USER_ID = 'user-123';
+// Test user ID - must match the UUID in scripts/create-test-user.sql
+const MOCK_USER_ID = '00000000-0000-0000-0000-000000000002';
 
 export default function HistoryPage() {
   const [appointments, setAppointments] = useState<any[]>([]);

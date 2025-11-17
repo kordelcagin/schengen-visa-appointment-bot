@@ -40,7 +40,7 @@ Aşağıdaki bilgileri doldurun:
 
 ```
 Name: schengen-visa-bot
-Database Password: [Güçlü bir şifre oluşturun]
+Database Password: [Güçlü bir şifre oluşturun] //3DysQfCuovgNOs9Q
 Region: Europe West (Frankfurt) - Türkiye'ye en yakın
 Pricing Plan: Free (Ücretsiz)
 ```

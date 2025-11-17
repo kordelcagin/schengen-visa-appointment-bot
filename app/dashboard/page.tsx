@@ -9,7 +9,8 @@ import { COUNTRIES, CITIES, formatDateTR } from '@/lib/constants/countries';
 import Link from 'next/link';
 
 // Mock user ID - gerçek uygulamada auth'dan gelecek
-const MOCK_USER_ID = 'user-123';
+// Must match the UUID in scripts/create-test-user.sql
+const MOCK_USER_ID = '00000000-0000-0000-0000-000000000002';
 
 export default function DashboardPage() {
   const [preferences, setPreferences] = useState<any>(null);
